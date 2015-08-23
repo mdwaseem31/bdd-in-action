@@ -49,3 +49,7 @@
     - List<LocalTime> findNextDepartures(String departure, String destination, LocalTime startTime)
 
 - The unit tests are in Spock that basically tests the services using the mock data created in **InMemoryTimetableService**
+
+## JUnit Test Runner
+
+- In above section we mentioned that the "mvn verify" command will run all the tests. But we can 
